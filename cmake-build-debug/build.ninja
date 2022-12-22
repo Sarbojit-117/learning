@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/sarbo/CLionProjects/learning/cmake-build-debug/
 
 build cmake_object_order_depends_target_learning: phony || CMakeFiles/learning.dir
 
-build CMakeFiles/learning.dir/Equality.cpp.obj: CXX_COMPILER__learning_Debug C$:/Users/sarbo/CLionProjects/learning/Equality.cpp || cmake_object_order_depends_target_learning
-  DEP_FILE = CMakeFiles\learning.dir\Equality.cpp.obj.d
+build CMakeFiles/learning.dir/less_than_50_and_b.cpp.obj: CXX_COMPILER__learning_Debug C$:/Users/sarbo/CLionProjects/learning/less_than_50_and_b.cpp || cmake_object_order_depends_target_learning
+  DEP_FILE = CMakeFiles\learning.dir\less_than_50_and_b.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\learning.dir
   OBJECT_FILE_DIR = CMakeFiles\learning.dir
@@ -63,7 +63,7 @@ build CMakeFiles/learning.dir/Equality.cpp.obj: CXX_COMPILER__learning_Debug C$:
 #############################################
 # Link the executable learning.exe
 
-build learning.exe: CXX_EXECUTABLE_LINKER__learning_Debug CMakeFiles/learning.dir/Equality.cpp.obj
+build learning.exe: CXX_EXECUTABLE_LINKER__learning_Debug CMakeFiles/learning.dir/less_than_50_and_b.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\learning.dir
